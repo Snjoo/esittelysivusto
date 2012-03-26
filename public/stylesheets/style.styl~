@@ -56,10 +56,6 @@ header
 	width 100%
 	border-top-radius(5px)
 	border-bottom-radius(5px)
-	A:link {text-decoration: none; color: #fff}
-	A:visited {text-decoration: none; color: #fff}
-	A:active {text-decoration: none}
-	A:hover {text-decoration: none}
 	nav
 		width 920px
 		text-align left

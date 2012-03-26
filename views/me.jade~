@@ -1,0 +1,8 @@
+h1 Tietoja tekijästä
+img(src='images/samppa.JPG', width='400px')
+p 
+ |Olen Samppa Hynninen, 21-vuotias
+ a(href="http://mit.jyu.fi") tietotekniikan
+ | opiskelija Jyväskylästä. Harrastan tietotekniikan lisäksi
+ a(href="http://footbag.fi/verkkofootbag/") verkkofootbagia.
+ | Toinen suuri kiinnostuksenkohteeni on kahvinvalmistus eri tavoin.

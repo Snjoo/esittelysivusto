@@ -1,7 +1,159 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+article,
+aside,
+dialog,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
-a {
-  color: #00b7ff;
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-align: center;
+  background: #ababab;
+}
+body A:link {
+  text-decoration: none;
+  color: #fff;
+}
+body A:visited {
+  text-decoration: none;
+  color: #555;
+}
+body A:active {
+  text-decoration: none;
+}
+body A:hover {
+  text-decoration: underline;
+}
+#wrapper {
+  width: 960px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  background: #363636;
+  padding: 15px;
+  -webkit-border-bottom-left-radius: 10px;
+  -moz-border-bottom-left-radius: 10px;
+  -o-border-bottom-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  -moz-border-bottom-right-radius: 10px;
+  -o-border-bottom-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.css-table {
+  width: 100%;
+  display: table;
+}
+.css-table .two-column {
+  display: table;
+}
+.css-table .two-column .cell {
+  display: table-cell;
+  vertical-align: top;
+  width: 50%;
+}
+.css-table .two-column .cell * {
+  width: 90%;
+}
+.css-table .three-column {
+  display: table;
+}
+.css-table .three-column .cell {
+  display: table-cell;
+  vertical-align: top;
+  width: 33.3333333%;
+}
+.css-table .three-column .cell * {
+  width: 90%;
+}
+.css-table .four-column {
+  display: table;
+}
+.css-table .four-column .cell {
+  display: table-cell;
+  vertical-align: top;
+  width: 25%;
+}
+.css-table .four-column .cell * {
+  width: 90%;
+}
+header {
+  background: #555;
+  width: 100%;
+  -webkit-border-top-left-radius: 5px;
+  -moz-border-top-left-radius: 5px;
+  -o-border-top-left-radius: 5px;
+  border-top-left-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-top-right-radius: 5px;
+  -o-border-top-right-radius: 5px;
+  border-top-right-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -moz-border-bottom-left-radius: 5px;
+  -o-border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  -moz-border-bottom-right-radius: 5px;
+  -o-border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+header A:link {
+  text-decoration: none;
+  color: #fff;
+}
+header A:visited {
+  text-decoration: none;
+  color: #fff;
+}
+header A:active {
+  text-decoration: none;
+}
+header A:hover {
+  text-decoration: none;
+}
+header nav {
+  width: 920px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+header nav ul {
+  list-style: none;
+  padding: 5px;
+  margin-bottom: 0;
+}
+header nav ul li {
+  display: inline;
+  margin-left: 2px;
+}
+header nav ul li a {
+  background: #363636;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 5px 15px 6px;
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+}
+header nav ul li a:hover {
+  background-color: #c2c2c2;
+}
+footer {
+  color: #555;
+  border-top: 2px double #555;
+  padding-top: 1.5em;
+  margin-left: 5px;
+  text-align: left;
+}
+footer ul {
+  list-style: none;
 }

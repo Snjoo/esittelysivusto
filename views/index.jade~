@@ -8,11 +8,7 @@ section.css-table
 			h2 Tekniikoista
 			p Halusin kokeilla näitä sivuja tehdessä jotain itsellenikin uutta, joten sivusto on toteutettu käyttäen seuraavia tekniikoita:
 			ul
-				li
-					a(href="http://nodejs.org/") Node.js
-				li
-					a(href="http://expressjs.com/") Express.js
-				li
-					a(href="http://learnboost.github.com/stylus/") Stylus CSS
-				li
-					a(href="http://jade-lang.com/") Jade HTML-templatet
+				li a(href="http://nodejs.org/") Node.js
+				li a(href="http://expressjs.com/") Express.js
+				li a(href="http://learnboost.github.com/stylus/") Stylus CSS
+				li a(href="http://jade-lang.com/") Jade HTML-templatet
