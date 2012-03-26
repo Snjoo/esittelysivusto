@@ -54,5 +54,7 @@ app.get('/contact', function(req, res) {
     });
 });
 
-app.listen(3000);
-console.log("Express server listening on port %d in %s mode", app.address().port, app.settings.env);
+if (!module.parent) {
+  app.listen(3000);
+  console.log("Express server listening on port %d in %s mode", app.address().port, app.settings.env);
+}
