@@ -48,5 +48,11 @@ app.get('/me', function(req, res) {
     });
 });
 
+app.get('/contact', function(req, res) {
+    res.render('contact', {
+	title: 'Yhteystiedot'
+    });
+});
+
 app.listen(3000);
 console.log("Express server listening on port %d in %s mode", app.address().port, app.settings.env);
